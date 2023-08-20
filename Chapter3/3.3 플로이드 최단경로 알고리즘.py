@@ -1,7 +1,8 @@
 def floyd(W):
     D = W
     n = len(W)
-    for k in range(n):
+    for k in range(5):
+        print(k)
         for i in range(n):
             for j in range(n):
                 D[i][j] = min(D[i][j], D[i][k]+D[k][j])
