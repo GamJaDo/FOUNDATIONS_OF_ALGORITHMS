@@ -1,7 +1,7 @@
 def floyd(W):
     D = W
     n = len(W)
-    for k in range(5):
+    for k in range(n):
         print(k)
         for i in range(n):
             for j in range(n):
